@@ -1,0 +1,283 @@
+Testimonials -> 
+
+<!-- testimonial-one -->
+			<section class="testimonial-one">
+				<div class="testimonial-one-shape"></div>
+				<div class="container">
+					<!-- testimonial-slider -->
+					<div class="testimonial-slider">
+						<!-- testimonial-thumb -->
+						<div class="testimonial-thumb">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="assets/images/resources/testimonial-one-img-1.png" alt="img-17">
+								</div><!-- swiper-slide -->
+								<div class="swiper-slide">
+									<img src="assets/images/resources/testimonial-one-img-2.png" alt="img-18">
+								</div><!-- swiper-slide -->
+								<div class="swiper-slide">
+									<img src="assets/images/resources/testimonial-one-img-3.png" alt="img-19">
+								</div><!-- swiper-slide -->
+							</div><!--swiper-wrapper-->
+						</div><!--testimonial-thumb-->
+						<div class="swiper testimonial-reviews">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="testimonial-one-info">
+										<div class="star">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+										<!-- testimonial-one-detais -->
+										<div class="testimonial-one-detais">
+											<p>Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
+												dolore mquey laudantium, totam rem aperiam eaque ipsa quae abillo
+												inventore veritatis quase</p>
+										</div>
+										<!-- testimonial-one-name -->
+										<ul class="testimonial-one-name">
+											<li>
+												<i class="flaticon-quote"></i>
+											</li>
+											<li>
+												<h4>Dennis A. McGehee</h4>
+												<p>Web Developer</p>
+											</li>
+										</ul>
+									</div>
+								</div><!--swiper-slide-->
+								<div class="swiper-slide">
+									<div class="testimonial-one-info">
+										<div class="star">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+										<!-- testimonial-one-detais -->
+										<div class="testimonial-one-detais">
+											<p>Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
+												dolore mquey laudantium, totam rem aperiam eaque ipsa quae abillo
+												inventore veritatis quase</p>
+										</div>
+										<!-- testimonial-one-name -->
+										<ul class="testimonial-one-name">
+											<li>
+												<i class="flaticon-quote"></i>
+											</li>
+											<li>
+												<h4>Dennis A. McGehee</h4>
+												<p>Web Developer</p>
+											</li>
+										</ul>
+									</div>
+								</div><!--swiper-slide-->
+								<div class="swiper-slide">
+									<div class="testimonial-one-info">
+										<div class="star">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+										<!-- testimonial-one-detais -->
+										<div class="testimonial-one-detais">
+											<p>Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium
+												dolore mquey laudantium, totam rem aperiam eaque ipsa quae abillo
+												inventore veritatis quase</p>
+										</div>
+										<!-- testimonial-one-name -->
+										<ul class="testimonial-one-name">
+											<li>
+												<i class="flaticon-quote"></i>
+											</li>
+											<li>
+												<h4>Dennis A. McGehee</h4>
+												<p>Web Developer</p>
+											</li>
+										</ul>
+									</div>
+								</div><!--swiper-slide-->
+							</div><!-- swiper-wrapper -->
+							<div class="swiper-pagination"></div>
+						</div><!--swiper testimonial-reviews-->
+
+					</div><!--testimonial-slider-->
+				</div><!-- container -->
+			</section>
+
+
+Complaints.php :
+
+<?php
+	include ('include/header.php');
+?>
+
+		<main class="site-main">
+            <!-- page-header -->
+            <section class="page-header">
+                <div class="page-header-bg"></div>
+                <div class="container">
+                    <!-- page-header-inner -->
+                    <div class="page-header-inner text-center">
+                        <h2 class="wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="100ms">Complaints</h2>
+                        <ul class="page-header-inner-title list-unstyled wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
+                            <li class="arrow-right"><a href="index.php">Home</a></li>
+                            <li>
+                                <h4>Complaints</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- contact-page -->
+            <section class="contact-page" style="margin-top: 0px;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 offset-md-2 wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="200ms">
+                            <!-- contact-page-right -->
+                            <div class="contact-page-right">
+                                <div class="contact-page-form">
+                                    <h3 class="contact-page-form-title">Send Us Your Complaints</h3>
+                                    <p class="contact-page-form-text">Share the Internet connectivity issues, Payments queries etc here, we will address </p>
+                                    <form id="frmEnquiry" method="POST" class="contact-page__form-box contact-form-validated" style="margin-bottom: 40px;">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="contact-page-input-box">
+                                                    <label for="full-Name-123">Full Name</label>
+                                                    <input type="text" class="input-contact-text" id="full_name" name="full_name" placeholder="Full Name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="contact-page-input-box">
+                                                    <label for="email-123">Mobile</label>
+                                                    <input type="number" class="input-contact-text" id="contact_number" name="contact_number" placeholder="Mobile number" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="contact-page-input-box">
+                                                    <label for="email-123">Email</label>
+                                                    <input type="email" class="input-contact-text" id="contact_email" name="contact_email" placeholder="suppot@gmail.com" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6">
+                                                <div class="contact-page-input-box">
+                                                    <label for="textbox">Issue Type</label>
+                                                    <input type="text" class="input-contact-text" id="issue_type" name="issue_type" placeholder="I would like to discussed" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-12 col-lg-12">
+                                                <div class="contact-page-input-box">
+                                                    <label for="message-123">Message</label>
+                                                    <textarea name="message" class="input-contact-text" id="message" name="message" placeholder="write message" required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-12 col-lg-12">
+                                                <div class="contact-page-input-box">
+                                                    <div class="theme-btn">
+                                                        <button type="button" id="btn_submit" class="btn btn-bg-primary" onclick="submitComplaint()">
+															Send Us Message<i class="icon-1"></i>
+														</button>
+														<img id="fiberflow_loader" src="assets/images/loader.gif" style="width: 40px; display: none;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		</main>
+		
+		
+<script>
+	function submitComplaint()
+	{
+		var validator = $("#frmEnquiry").validate({
+		rules: {
+			full_name: {required:true},
+			contact_number: {required:true, number:true},
+			contact_email: {required:true, email:true},
+			issue_type: {required:true},
+			message: {required:true}
+			},
+			messages: {
+				full_name: {required:"Please enter your name"},
+				contact_number: {required:"Mobile Number required"},
+				contact_email: {required:"EMail required"},
+				issue_type: {required:"issue_type required"},
+				message: {required:"Content required"}
+			}
+		});
+	
+		if(validator.form())
+		{
+			//Hide submit button and show loader
+			$("#btn_submit").css('display', 'none');
+			$("#fiberflow_loader").css('display', 'block');
+			
+			var full_name = document.getElementById("full_name").value;
+			var contact_number = document.getElementById("contact_number").value;
+			var contact_email = document.getElementById("contact_email").value;
+			var issue_type = document.getElementById("issue_type").value;
+			var message = document.getElementById("message").value;
+
+			var action = "sendComplaintMail";
+			var dataString = "full_name="+full_name+"&contact_number="+contact_number+"&contact_email="+contact_email+"&issue_type="+issue_type+"&message="+message;
+
+			$.ajax
+			({
+				type: "POST",
+				url: "ajaxServices.php",
+				data: "action="+action+"&"+dataString,
+				cache: false,
+				success: function(html)
+				{
+					//alert(html);
+					swal(html, "", "success");
+					document.getElementById("full_name").value = "";
+					document.getElementById("contact_number").value = "";
+					document.getElementById("contact_email").value = "";
+					document.getElementById("issue_type").value = "";
+					document.getElementById("message").value = "";
+					
+					//Show submit button and hide loader
+					$("#btn_submit").css('display', 'block');
+					$("#fiberflow_loader").css('display', 'none');
+					
+					saveComplaint(dataString);
+				}
+			});
+		}
+	}
+	
+	function saveComplaint(dataString)
+	{
+		var api_method = "saveWebsiteComplaint";
+		
+		$.ajax
+		({
+			type: "POST",
+			url: "https://swasam.in/dev/fiberflow/fiberflow_admin_api/public/api/" + api_method,
+			data: dataString,
+			cache: false,
+			success: function(response)
+			{
+				console.log(response);
+			}
+		});
+	}
+</script>
+		
+<?php
+	include ('include/footer.php');
+?>
